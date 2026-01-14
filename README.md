@@ -45,9 +45,10 @@ Estacao standalone de rastreamento de satelites baseada em ESP32. Utiliza o mode
 
 ## Estatisticas
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mathasilv&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mathasilv&layout=compact&theme=github_dark&hide_border=true)
+<a href="https://github.com/mathasilv">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mathasilv&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=86400"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mathasilv&layout=compact&theme=github_dark&hide_border=true&cache_seconds=86400"/>
+</a>
 
 ---
 
