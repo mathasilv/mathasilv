@@ -66,6 +66,8 @@ Orbital telemetry system for remote crop monitoring in areas without terrestrial
 
 #### [OrbitScout](https://github.com/mathasilv/OrbitScout)
 
+<img src="https://raw.githubusercontent.com/mathasilv/OrbitScout/main/docs/images/orbitscout-device.jpeg" width="280" alt="OrbitScout Device" />
+
 Standalone satellite tracking station based on ESP32. Uses the SGP4 model to calculate orbital positions and predict passes in real time.
 
 
