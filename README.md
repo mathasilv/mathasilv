@@ -6,28 +6,10 @@
 
 Electrical Engineering Student at Federal University of Goias (UFG)
 
----
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mathasilv)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mathasilv)
 
 </div>
-
----
-
-### About
-
-```txt
-Location    : Goiania, Brazil
-University  : Federal University of Goias (UFG)
-Major       : Electrical Engineering
-Team        : Orbitalis - OBSAT MCTI
-Focus       : Embedded Systems, Satellite Development, Real-Time Systems
-```
-
-Currently developing a 1U CubeSat for the 3rd Brazilian Satellite Olympiad (OBSAT MCTI) as part of the Orbitalis team.
-
----
 
 ### Tech Stack
 
@@ -50,7 +32,7 @@ Currently developing a 1U CubeSat for the 3rd Brazilian Satellite Olympiad (OBSA
       <br>Arduino
     </td>
     <td align="center" width="96">
-      <img src="https://www.vectorlogo.zone/logos/espressif/espressif-icon.svg" width="48" height="48" alt="ESP32" />
+      <img src="https://cdn.worldvectorlogo.com/logos/espressif-systems.svg" width="48" height="48" alt="ESP32" />
       <br>ESP32
     </td>
     <td align="center" width="96">
@@ -60,8 +42,6 @@ Currently developing a 1U CubeSat for the 3rd Brazilian Satellite Olympiad (OBSA
   </tr>
 </table>
 
-**Frameworks & Tools:**
-`FreeRTOS` `PlatformIO` `LoRa` `I2C/SPI` `UART` `SGP4` `Git`
 
 ---
 
@@ -73,15 +53,9 @@ Currently developing a 1U CubeSat for the 3rd Brazilian Satellite Olympiad (OBSA
 
 #### [AgroSat-IoT](https://github.com/mathasilv/AgroSat-IoT)
 
-Orbital telemetry system for remote crop monitoring in areas without terrestrial connectivity. 1U CubeSat with Store-and-Forward architecture developed for OBSAT MCTI.
+<img src="https://raw.githubusercontent.com/mathasilv/AgroSat-IoT/main/docs/images/vista-explodida.png" width="280" alt="AgroSat-IoT 3D Model" />
 
-```
-Platform    : ESP32 + FreeRTOS
-Radio       : LoRa SX1276 @ 915 MHz
-Sensors     : IMU 9-DOF, BME280, CCS811
-Security    : AES-128 Encryption
-Power       : Dynamic Frequency Scaling
-```
+Orbital telemetry system for remote crop monitoring in areas without terrestrial connectivity. 1U CubeSat with Store-and-Forward architecture developed for OBSAT MCTI.
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-ESP32-blue)
@@ -94,13 +68,6 @@ Power       : Dynamic Frequency Scaling
 
 Standalone satellite tracking station based on ESP32. Uses the SGP4 model to calculate orbital positions and predict passes in real time.
 
-```
-Platform    : ESP32
-Display     : TFT Color Screen
-Sensors     : GPS + BNO055 IMU
-Features    : WiFi, TLE Auto-Update
-Interface   : Physical Buttons + Buzzer
-```
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-ESP32-blue)
@@ -111,9 +78,3 @@ Interface   : Physical Buttons + Buzzer
 </table>
 
 ---
-
-<div align="center">
-
-**Orbitalis Team | UFG | OBSAT MCTI 2024**
-
-</div>
