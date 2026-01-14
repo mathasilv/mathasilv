@@ -77,6 +77,24 @@ Standalone satellite tracking station based on ESP32. Uses the SGP4 model to cal
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+#### [HomeLab Monitor](https://github.com/mathasilv/homelab-monitor)
+
+<img src="https://raw.githubusercontent.com/mathasilv/homelab-monitor/main/docs/images/display-running.jpg" width="280" alt="HomeLab Monitor Display" />
+
+Real-time server monitoring system with a CRT amber-style TFT display. Displays system statistics on a 320x240 screen connected to an STM32 microcontroller.
+
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Platform](https://img.shields.io/badge/platform-STM32-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+</td>
+<td width="50%">
+
+</td>
+</tr>
 </table>
 
 ---
