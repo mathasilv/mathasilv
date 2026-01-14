@@ -95,9 +95,9 @@ Real-time server monitoring system with a CRT amber-style TFT display. Displays 
 </td>
 <td width="50%">
 
-#### [NPA Ground Station](https://github.com/npa-ufg/npags)
+#### [NPA Ground Station](https://github.com/mathasilv/npa-gs-source)
 
-<img src="https://raw.githubusercontent.com/npa-ufg/npags/main/docs/images/dashboard_overview.png" width="280" alt="NPA Ground Station Dashboard" />
+<img src="https://github.com/mathasilv/npa-gs-source/blob/main/docs/images/station_view_overview.png?raw=true" />
 
 Ground station software for LoRa telemetry reception and visualization. Features real-time dashboard with interactive plots, GPS tracking, customizable decoders, and PDF report generation.
 
