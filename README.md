@@ -1,49 +1,119 @@
+<div align="center">
+
 # Matheus Aparecido
 
-Estudante de Engenharia Eletrica na Universidade Federal de Goias (UFG).
+**Embedded Systems | Space Systems | IoT**
 
-Interesse em sistemas embarcados, espaciais e IoT.
-
----
-
-## Sobre
-
-Atualmente desenvolvendo um CubeSat 1U para a 3a Olimpiada Brasileira de Satelites (OBSAT MCTI) como parte da equipe Orbitalis.
+Electrical Engineering Student at Federal University of Goias (UFG)
 
 ---
 
-## Tecnologias
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mathasilv)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mathasilv)
 
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00979D?style=flat&logo=freertos&logoColor=white)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?style=flat&logo=platformio&logoColor=white)
+</div>
 
 ---
 
-## Projetos em Destaque
+### About
 
-### [AgroSat-IoT](https://github.com/mathasilv/AgroSat-IoT)
-Sistema de telemetria orbital para monitoramento remoto de cultivos em areas sem conectividade terrestre. CubeSat 1U com arquitetura Store-and-Forward desenvolvido para a OBSAT MCTI.
+```txt
+Location    : Goiania, Brazil
+University  : Federal University of Goias (UFG)
+Major       : Electrical Engineering
+Team        : Orbitalis - OBSAT MCTI
+Focus       : Embedded Systems, Satellite Development, Real-Time Systems
+```
 
-- Comunicacao LoRa 915 MHz
-- Telemetria multi-sensor (IMU 9-DOF, Barometro, Higrometro)
-- Criptografia AES-128
-- Gestao de energia com Dynamic Frequency Scaling
-
-### [OrbitScout](https://github.com/mathasilv/OrbitScout)
-Estacao standalone de rastreamento de satelites baseada em ESP32. Utiliza o modelo SGP4 para calcular posicoes orbitais e prever passagens em tempo real.
-
-- Interface grafica em display TFT
-- Integracao com GPS e sensor de orientacao BNO055
-- Download automatico de TLEs via WiFi
-- Sistema de notificacoes para passagens
+Currently developing a 1U CubeSat for the 3rd Brazilian Satellite Olympiad (OBSAT MCTI) as part of the Orbitalis team.
 
 ---
 
-## Contato
+### Tech Stack
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/mathasilv)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/mathasilv)
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="48" height="48" alt="C" />
+      <br>C
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++" />
+      <br>C++
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" height="48" alt="Python" />
+      <br>Python
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" width="48" height="48" alt="Arduino" />
+      <br>Arduino
+    </td>
+    <td align="center" width="96">
+      <img src="https://www.vectorlogo.zone/logos/espressif/espressif-icon.svg" width="48" height="48" alt="ESP32" />
+      <br>ESP32
+    </td>
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="48" height="48" alt="Linux" />
+      <br>Linux
+    </td>
+  </tr>
+</table>
+
+**Frameworks & Tools:**
+`FreeRTOS` `PlatformIO` `LoRa` `I2C/SPI` `UART` `SGP4` `Git`
+
+---
+
+### Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+#### [AgroSat-IoT](https://github.com/mathasilv/AgroSat-IoT)
+
+Orbital telemetry system for remote crop monitoring in areas without terrestrial connectivity. 1U CubeSat with Store-and-Forward architecture developed for OBSAT MCTI.
+
+```
+Platform    : ESP32 + FreeRTOS
+Radio       : LoRa SX1276 @ 915 MHz
+Sensors     : IMU 9-DOF, BME280, CCS811
+Security    : AES-128 Encryption
+Power       : Dynamic Frequency Scaling
+```
+
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Platform](https://img.shields.io/badge/platform-ESP32-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+</td>
+<td width="50%">
+
+#### [OrbitScout](https://github.com/mathasilv/OrbitScout)
+
+Standalone satellite tracking station based on ESP32. Uses the SGP4 model to calculate orbital positions and predict passes in real time.
+
+```
+Platform    : ESP32
+Display     : TFT Color Screen
+Sensors     : GPS + BNO055 IMU
+Features    : WiFi, TLE Auto-Update
+Interface   : Physical Buttons + Buzzer
+```
+
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Platform](https://img.shields.io/badge/platform-ESP32-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+**Orbitalis Team | UFG | OBSAT MCTI 2024**
+
+</div>
